@@ -16,6 +16,11 @@ I then split each audio file with this rule:
 
 resulting in a total of 578 audio files.
 
+### Dataset Splits
+* Traning Set: 70%
+* Validation Set: 15%
+* Test Set: 15%
+
 ## Labeling
 
 I labeled the original 27 files into 4 categories:
@@ -33,9 +38,25 @@ Example: ./data/trimmed/19_Cosmic Phenomena_Solar System & Beyond Sounds_Kepler 
 ## Architecture
 ![image](https://github.com/enaikey00/SpaceSounds/assets/64537810/81c58ad4-c56a-434d-9560-2b156b7c663e)
 
+## Results
+Training and Validation Loss
+
+![Loss](https://github.com/enaikey00/SpaceSounds/assets/64537810/45872aec-4f82-4290-b828-8475e96434bb)
+
+Training and Validation Accuracy
+
+![Accuracy](https://github.com/enaikey00/SpaceSounds/assets/64537810/21d7b5be-4b40-418c-8c8d-a352626d016d)
+
+Confusion Matrix on Test Set
+
+![ConfusionMatrix](https://github.com/enaikey00/SpaceSounds/assets/64537810/73b89fcc-86c5-44e4-ae40-f51ddabb5ca0)
+
+
+
  ## Improvements
  * Audio augmentation
  * More data
  * Mel Spectrograms Normalization
  * More epochs
+ * Square Spectrogram for Convolution (current shape: 128x256)
  * ...
