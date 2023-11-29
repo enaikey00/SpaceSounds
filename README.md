@@ -1,4 +1,4 @@
-# SpaceSounds
+# SpaceSounds 🎵👾
 Space sounds classification with a Deep Learning approach. This is my final project for class "Machine & Deep Learning for Vision & Multimedia".
 
 ## Dataset
