@@ -173,6 +173,10 @@ if __name__ == '__main__':
     df = pd.DataFrame(data = label_mapping.items(), columns = ["file", "label"])
     print(df["label"].value_counts())
 
+    # audio file complete paths
+    directory_path = './data/trimmed/'
+    #audio_files = [directory_path + file for file in file_list]
+    audio_files = list_files(directory_path)
 
     # create TensorFlow dataset
     spectrograms = []
