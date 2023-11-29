@@ -37,4 +37,5 @@ Example: ./data/trimmed/19_Cosmic Phenomena_Solar System & Beyond Sounds_Kepler 
  * Audio augmentation
  * More data
  * Mel Spectrograms Normalization
- * More epochs...
+ * More epochs
+ * ...
